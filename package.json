@@ -11,8 +11,14 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
+    "@nuxtjs/prismic": "^1.2.3",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "nuxt": "^2.14.0"
+    "@prismicio/vue": "^2.0.7",
+    "nuxt": "^2.14.0",
+    "nuxt-sm": "^0.0.4",
+    "prismic-javascript": "^3.0.2",
+    "vue-essential-slices": "^0.2.0",
+    "vue-slicezone": "^0.0.26"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
@@ -20,6 +26,8 @@
     "@nuxtjs/tailwindcss": "^2.1.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.5.0",
-    "eslint-plugin-nuxt": "^1.0.0"
+    "eslint-plugin-nuxt": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3"
   }
 }
