@@ -42,7 +42,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: ['vue-essential-slices/src/styles/styles.scss'],
+  // css: ['vue-essential-slices/src/styles/styles.scss'],
 
   /*
   ** Plugins to load before mounting the App
@@ -66,15 +66,16 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/pwa', ['@nuxtjs/prismic', {
-    endpoint: 'https://nuxt-landing-pages.cdn.prismic.io/api/v2',
-    apiOptions: {
-      routes: [{
-        type: 'page',
-        path: '/:uid'
-      }]
-    }
-  }], ['nuxt-sm']],
+  modules: ['@nuxtjs/pwa',
+    ['@nuxtjs/prismic', {
+      endpoint: 'https://nuxt-landing-pages.cdn.prismic.io/api/v2',
+      apiOptions: {
+        routes: [{
+          type: 'page',
+          path: '/:uid'
+        }]
+      }
+    }], ['nuxt-sm']],
 
   /*
   ** Build configuration
